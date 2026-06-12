@@ -30,4 +30,5 @@ jobs:
       - name: Deploy to AKS
         run: |
            kubectl apply -f FiapAPIDocker/k8s/deployment.yml
+            kubectl rollout restart deployment fiapapoddeployment
           
