@@ -1,0 +1,6 @@
+@FiapAPIDocker_HostAddress = http://localhost:5080
+
+GET {{FiapAPIDocker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

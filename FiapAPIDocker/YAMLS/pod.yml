@@ -1,0 +1,10 @@
+﻿apiVersion: v1
+kind: Pod
+metadata:
+  name: fiapapipod
+spec:
+  containers:
+  - name: fiapapipod
+    image: brnmatos/fiapapi:latest
+    ports:
+    - containerPort: 8080
